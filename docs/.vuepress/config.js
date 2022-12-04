@@ -29,6 +29,33 @@ module.exports = {
                     title: "基础",
                     path: "/javascript/basic"
                 }, ],
+            },
+            {
+                title: 'Vue',
+                path: '/vue/skills',
+                collapsable: false,
+                children: [{
+                    title: "基础",
+                    path: "/vue/skills"
+                }, ],
+            },
+            {
+                title: 'React',
+                path: '/react/skills',
+                collapsable: false,
+                children: [{
+                    title: "基础",
+                    path: "/react/skills"
+                }, ],
+            },
+            {
+                title: '网络',
+                path: '/net/skills',
+                collapsable: false,
+                children: [{
+                    title: "基础",
+                    path: "/net/skills"
+                }, ],
             }
         ]
     }
