@@ -15,6 +15,21 @@ module.exports = {
                     link: 'https://github.com/jwors'
                 }]
             }
+        ],
+        sidebar: [{
+                title: '首页',
+                path: '/',
+                collapsable: false
+            },
+            {
+                title: 'JavaScript',
+                path: '/javascript/basic',
+                collapsable: false,
+                children: [{
+                    title: "基础",
+                    path: "/javascript/basic"
+                }, ],
+            }
         ]
     }
 }
