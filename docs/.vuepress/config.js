@@ -1,6 +1,7 @@
 module.exports = {
     title: '羊雪',
     description: '羊雪博客',
+    base: '/record/',
     theme: 'reco',
     themeConfig: {
         nav: [{
