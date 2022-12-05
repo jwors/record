@@ -6,7 +6,7 @@ module.exports = {
     themeConfig: {
         nav: [{
                 text: '首页',
-                link: '/'
+                link: '/html/basic'
             },
             {
                 text: '羊雪的 JavaScript 博客',
@@ -17,9 +17,22 @@ module.exports = {
             }
         ],
         sidebar: [{
-                title: '首页',
-                path: '/',
-                collapsable: false
+                title: 'Html',
+                path: '/html/basic',
+                collapsable: false,
+                children: [{
+                    title: "基础",
+                    path: "/html/basic"
+                }, ],
+            },
+            {
+                title: 'Css',
+                path: '/css/basic',
+                collapsable: false,
+                children: [{
+                    title: "基础",
+                    path: "/css/basic"
+                }, ],
             },
             {
                 title: 'JavaScript',
@@ -28,15 +41,21 @@ module.exports = {
                 children: [{
                     title: "基础",
                     path: "/javascript/basic"
+                }, {
+                    title: "基础算法",
+                    path: "/javascript/basicAirthmetic"
                 }, ],
             },
             {
                 title: 'Vue',
-                path: '/vue/skills',
+                path: '/vue/vue2SoundCode',
                 collapsable: false,
                 children: [{
-                    title: "基础",
-                    path: "/vue/skills"
+                    title: "Vue2源码",
+                    path: "/vue/vue2SoundCode"
+                }, {
+                    title: "Vue3使用",
+                    path: "/vue/useVue3"
                 }, ],
             },
             {
@@ -53,8 +72,17 @@ module.exports = {
                 path: '/net/skills',
                 collapsable: false,
                 children: [{
+                    title: "http",
+                    path: "/net/http"
+                }, ],
+            },
+            {
+                title: '浏览器',
+                path: '/browser/basic',
+                collapsable: false,
+                children: [{
                     title: "基础",
-                    path: "/net/skills"
+                    path: "/browser/basic"
                 }, ],
             }
         ]
