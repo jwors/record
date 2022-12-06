@@ -84,6 +84,15 @@ module.exports = {
                     title: "基础",
                     path: "/browser/basic"
                 }, ],
+            },
+            {
+                title: '开发问题',
+                path: '/solve/all',
+                collapsable: false,
+                children: [{
+                    title: "解决",
+                    path: "/solve/all"
+                }, ],
             }
         ]
     }
