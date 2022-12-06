@@ -78,11 +78,20 @@ module.exports = {
             },
             {
                 title: '浏览器',
-                path: '/browser/basic',
+                path: '/browser/browser',
                 collapsable: false,
                 children: [{
-                    title: "基础",
-                    path: "/browser/basic"
+                    title: "浏览器原理",
+                    path: "/browser/browser"
+                }, {
+                    title: "缓存",
+                    path: "/browser/cache"
+                }, {
+                    title: "从url到页面",
+                    path: "/browser/url"
+                }, {
+                    title: "v8",
+                    path: "/browser/v8"
                 }, ],
             },
             {
