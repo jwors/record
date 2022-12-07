@@ -44,6 +44,9 @@ module.exports = {
                 }, {
                     title: "基础算法",
                     path: "/javascript/basicAirthmetic"
+                }, {
+                    title: "作用域",
+                    path: "/javascript/scope"
                 }, ],
             },
             {
